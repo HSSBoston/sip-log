@@ -15,5 +15,8 @@ This project was presented at [PhysTech 2025](https://phystech2025.devpost.com/)
 - Hydration reminder: Sending reminders to a phone.
 
 
-https://github.com/user-attachments/assets/a5976171-7105-413c-b124-96ba7348cdee
+
+
+
+https://github.com/user-attachments/assets/15ccf750-053a-40fd-bcab-b142b7625c75
 
