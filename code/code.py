@@ -1,9 +1,9 @@
 import board, mpu6886, time, math
 import display, kintone
 
-SUB_DOMAIN  = ""
-APP_ID      = ""
-API_TOKEN   = ""
+SUB_DOMAIN  = "jxsboston"
+APP_ID      = "21"
+API_TOKEN   = "TZiC2n9KnPzozt7EUsZHuPIYvysGMSGK0bMqnAhv"
 
 DEMO_MODE = True
 ACCEL_SENSING_INTERVAL = 1    # in seconds
