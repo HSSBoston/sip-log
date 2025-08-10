@@ -1,9 +1,9 @@
 import board, mpu6886, time, math
 import display, kintone
 
-SUB_DOMAIN  = "jxsboston"
-APP_ID      = "21"
-API_TOKEN   = "TZiC2n9KnPzozt7EUsZHuPIYvysGMSGK0bMqnAhv"
+SUB_DOMAIN  = ""
+APP_ID      = ""
+API_TOKEN   = ""
 
 DEMO_MODE = True
 ACCEL_SENSING_INTERVAL = 1    # in seconds
@@ -15,15 +15,15 @@ accelSensingCount = 0
 
 # Take X, Y, and Z acceleration values in m/s^2.
 # Return the pitch angle (in radian) between the ground surface
-#   and the positive side of the Y axis.
+#   and the positive (right) side of the Y axis.
 #
 def calcPitch(x, y, z):
     accelMagnitude = math.sqrt(x**2 + y**2 + z**2)
+    xNormalized = x/accelMagnitude
     yNormalized = y/accelMagnitude
-    if z >= 0:
-        pitchY = math.asin(-yNormalized)
-    else:
-        pitchY = math.acos(-yNormalized) + math.pi/2
+    pitchY = math.asin(-yNormalized)
+    if z <= 0:
+        pitchY += math.pi/4
     return pitchY
 
 if DEMO_MODE:
