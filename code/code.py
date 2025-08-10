@@ -23,7 +23,7 @@ def calcPitch(x, y, z):
     yNormalized = y/accelMagnitude
     pitchY = math.asin(-yNormalized)
     if z <= 0:
-        pitchY += math.pi/4
+        pitchY += math.pi/2
     return pitchY
 
 if DEMO_MODE:
