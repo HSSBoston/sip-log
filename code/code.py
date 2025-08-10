@@ -19,11 +19,11 @@ accelSensingCount = 0
 #
 def calcPitch(x, y, z):
     accelMagnitude = math.sqrt(x**2 + y**2 + z**2)
-    xNormalized = x/accelMagnitude
     yNormalized = y/accelMagnitude
-    pitchY = math.asin(-yNormalized)
-    if z <= 0:
-        pitchY += math.pi/4
+    if z >= 0:
+        pitchY = math.asin(-yNormalized)
+    else:
+        pitchY = math.acos(-yNormalized) + math.pi/2
     return pitchY
 
 if DEMO_MODE:
