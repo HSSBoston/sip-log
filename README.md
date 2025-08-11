@@ -2,10 +2,14 @@
   <img src="images/logo.jpg" width="750" />
 </p>
 
-Sip Log is a mobile device that computerizes a water bottle to monitor water intake during physical activity. Attached to the bottom of a bottle, it keeps track of how many times you drank water, estimates how much water you drank in total, records intake log in the cloud, and reminds you to hydrate via smartphone notification. It aims to aid athletes be more aware of their water intake, along with preventing dehydration from affecting their performance. Sip Log uses a battery-operated ESP32 microcontroller (M5StickC PLUS2) that runs CircuitPython code to detect water intake by sensing the tilt of a bottle with a 3-axis accelerometer. 
+Sip Log is a mobile device that computerizes a water bottle to monitor water intake during physical activity. Attached to the bottom of a bottle, it keeps track of water intakes, records intake logs in the cloud, helps estimate water consumption, and issues hydration reminders via smartphone notifications. It aims to aid athletes be more aware of their water intake and prevent dehydration, which affects their condition and performance. Sip Log uses a battery-operated ESP32 microcontroller that runs CircuitPython code to detect water intake with a 3-axis accelerometer and interact with the cloud with WiFi. 
 
 This project was presented at [PhysTech 2025](https://phystech2025.devpost.com/). It won a [3rd place](https://phystech2025.devpost.com/project-gallery) award.
 
+### Publications:
+
+    Hanna Suzuki, "Sip Log: A Mobile Water Intake Monitor and Reminder," In R. Nagata, H. Suzuki and S. Nagata (eds.), Innovation in Motion: Technology Hacks from PhysTech 2025, Chapter 2, Binnovative, September 2025.
+    
 ### Key Features:
 
 - Tilt sensing: Continuously sensing the tilt of a water bottle with an accelerometer
