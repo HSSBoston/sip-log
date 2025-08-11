@@ -8,7 +8,7 @@ This project was presented at [PhysTech 2025](https://phystech2025.devpost.com/)
 
 ### Publications:
 
-    Hanna Suzuki, "Sip Log: A Mobile Water Intake Monitor and Reminder," In R. Nagata, H. Suzuki and S. Nagata (eds.), Innovation in Motion: Technology Hacks from PhysTech 2025, Chapter 2, Binnovative, September 2025.
+Hanna Suzuki, "Sip Log: A Mobile Water Intake Monitor and Reminder," In R. Nagata, H. Suzuki and S. Nagata (eds.), Innovation in Motion: Technology Hacks from PhysTech 2025, Chapter 2, Binnovative, September 2025.
     
 ### Key Features:
 
