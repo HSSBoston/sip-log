@@ -14,8 +14,8 @@ mpu = mpu6886.MPU6886(i2c)
 accelSensingCount = 0
 
 # Take X, Y, and Z acceleration values in m/s^2.
-# Return the pitch angle (in radian) between the ground surface
-#   and the positive (right) side of the Y axis.
+# Return the pitch angle (in radians) between the ground surface
+#   and the positive side of the Y axis.
 #
 def calcPitch(x, y, z):
     accelMagnitude = math.sqrt(x**2 + y**2 + z**2)
