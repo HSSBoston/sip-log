@@ -10,8 +10,7 @@ This project was presented at [PhysTech 2025](https://phystech2025.devpost.com/)
 
 ## Publications
 
-Hanna Suzuki, "Sip Log: A Mobile Water Intake Monitor and Reminder," In R. Nagata, H. Suzuki and S. Nagata (eds.), *Innovation in Motion: Technology Hacks from PhysTech 2025*, Chapter 2, pp. 9 - 25, Binnovative, ISBN: 979-8-2639-6243-2, September 2025.
-
+Hanna Suzuki, "Sip Log: A Mobile Water Intake Monitor and Reminder," In R. Nagata, H. Suzuki and S. Nagata (eds.), *[Innovation in Motion: Technology Hacks from PhysTech 2025](https://www.amazon.com/dp/B0FR13T4KH)*, Chapter 2, pp. 9 - 25, Binnovative, ISBN: 979-8-2639-6243-2, September 2025. [preprint](doc/sip-log-book-chapter.pdf)
 ## Key Features
 
 - Tilt sensing: Continuously sensing the tilt of a water bottle with an accelerometer
